@@ -1,0 +1,10 @@
+<?php
+
+function resume_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state) {
+  //descriptions
+ 
+  $form['name']['#description'] = t('Enter your name');
+  $form['email']['#description'] = t('Enter your email address');
+}
+
+

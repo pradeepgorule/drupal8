@@ -1,0 +1,50 @@
+resume.Resume_Form:
+ path: '/resume/myform'
+ defaults:
+   _title: 'Application form'
+   _form: '\Drupal\resume\Form\ResumeForm'
+ requirements:
+   _permission: 'access content'
+
+resume.Field_Form:
+ path: '/resume/form'
+ defaults:
+   _title: 'Application form'
+   _form: '\Drupal\resume\Form\FieldForm'
+ requirements:
+   _permission: 'access content'
+
+
+resume.Simple_Ajax:
+  path: '/resume/simpleform'
+  defaults:
+    _form: '\Drupal\resume\Form\SimpleAjax'
+    _title: 'ajax form'
+  requirements:
+    _permission: 'access content'
+
+
+resume.Submit_form:
+  path: '/resume/submitform'
+  defaults:
+    _form: '\Drupal\resume\Form\Submitform'
+    _title: 'ajax form'
+  requirements:
+    _permission: 'access content'
+
+resume.Textfield:
+  path: '/resume/textform'
+  defaults:
+    _form: '\Drupal\resume\Form\Textfield'
+    _title: 'ajax Textfield_Auto'
+  requirements:
+    _permission: 'access content'
+
+
+resume.Multi_Form:
+  path: '/resume/multistep'
+  defaults:
+    _form: '\Drupal\resume\Form\MultiForm'
+    _title: 'Multi step form'
+  requirements:
+    _permission: 'access content'
