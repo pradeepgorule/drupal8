@@ -1,0 +1,24 @@
+resume.Resume_Form:
+  title: 'Resume Form'
+  route_name: 'resume.Resume_Form'
+  expanded: TRUE
+
+
+
+resume.Simple_Ajax:
+  title: 'Simple Ajax'
+  route_name: 'resume.Simple_Ajax'
+  expanded: TRUE
+  weight: 1
+
+resume.Textfield:
+  title: 'Auto Textfield'
+  route_name: 'resume.Textfield'
+  expanded: TRUE
+  weight: 2
+
+resume.Multi_Form:
+  title: 'Mltistep Form'
+  route_name: 'resume.Multi_Form'
+  expanded: TRUE
+  weight: 3
